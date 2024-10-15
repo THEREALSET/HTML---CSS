@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#xota {
+            background-color: darkgreen;
+            color:azure;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="xota" onclick="clicar()">
+        Crique
+    </div>
+    <Script>
+        function clicar(){
+           var xot = document.getElementById('xota')
+           xot.innerText = 'Crico!'
+        }
+
+    </Script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opa pia, partiu churas?</title>
+    <style>
+        body {
+            background-color: #143636;
+            color:darkorange;
+            font: normal 25pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, se você está vendo isso provavelmente você sou eu, um hacker, ou algum amigo.</h1>
+    <p>Olá, mundo!</p>
+    <script>
+         var nome = prompt('Qual é o seu nome?')
+         var salário = prompt(`Olá, ${nome}, estou fazendo uma pesquisa sobre a média salarial brasileira, pode me informar seu salário?`)
+         salário.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+         confirm(`${nome}, O senhor confirma que ${salário} é seu salário?`)
+         document.write(`Muito obrigado, senhor ${nome}!`)
+    </script>
+</body>
+</html>

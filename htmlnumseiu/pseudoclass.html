@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            margin: auto;
+            text-align: center;
+            display: inline-block;
+            color: black;
+            background-color: rgb(161, 161, 161);
+            height: 200px;
+            width: 200px;  
+            border-radius: 20px;
+            
+        }
+
+        div:hover {
+            border: 2px solid rgb(0, 0, 0) ;
+            background-color: rgb(255, 252, 190);
+        }
+        
+        #tt {
+            padding-top: 14px;
+            padding-left: 25px;
+            background-color: rgb(197, 197, 197);
+            width: 300px;
+            height: 300px;
+            border-style: solid;
+            border-width: 10px;
+            border-color: rgb(26, 24, 24);
+            border-radius: 10px;
+            margin: auto;
+            box-shadow:  5px 5px 6px 3px rgba(0, 0, 0, 0.466);
+        }
+
+        p {
+            background-color: aqua;
+            width: 50px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+    </style>
+</head>
+<body>
+    <h1 id ="tt">Exemplo de caixa box level</h1>
+    <div>1<br></div>
+    <div>2</div>
+    <div>3</div>
+    <nav>
+        <p>lalala</p>
+    </nav>
+</body>
+</html>
