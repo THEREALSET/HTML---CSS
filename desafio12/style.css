@@ -58,7 +58,6 @@ section {
     font-weight: bold;
     padding-left: 30px;
     font-family: var(--fonte3);
-
 }
 
 .normal {
@@ -69,6 +68,24 @@ section {
 .image {
     background-color: rgb(51, 51, 51);
     color: white;
+    position: relative;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.349)
+}
+
+#img1 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('imagens/wallpaper002.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#img2 {
+    background-image: url('imagens/wallpaper005.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .image > p {
@@ -77,6 +94,7 @@ section {
     background-color: rgba(0, 0, 0, 0.253);
     padding-left: 10px;
     border-radius: 5px;
+    text-shadow: 2px 2px 2px black;
 }
 
 footer {
@@ -84,5 +102,9 @@ footer {
     text-align: center;
     color: white;
     padding: 10px;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
